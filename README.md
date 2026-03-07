@@ -11,8 +11,8 @@ This project implements a lightweight, high-performance semantic search system u
 
    ```bash
    # Clone the repository and enter the directory
-   git clone <your-repo-url>
-   cd trademarkia_semantic_engine
+   git clone <https://github.com/Bedagya-Bordoloi/Trademarkia_assignment>
+   cd Trademarkia_assignment
 
    # Install dependencies
    pip install -r requirements.txt
@@ -85,12 +85,11 @@ This project implements a lightweight, high-performance semantic search system u
 │   ├── vector_store.py         # FAISS index creation
 │   └── search_engine.py        # Query embedding + retrieval logic
 ├── analysis/
-│   └── clustering_report.md    # Visual analysis, boundary cases, UMAP plots
+│   └── clustering_report.md    
 ├── tests/
 │   └── test_cache.py           # Unit tests for cache hit/miss/semantic behavior
 ├── models/                     # Persistent artifacts (embeddings.npy, faiss.index, gmm.pkl)
 ├── data/                       # Raw & cleaned dataset files
-├── Dockerfile
 ├── requirements.txt
 └── run.sh                      # Convenience script for pipeline + server start
 ```
@@ -135,4 +134,5 @@ Expected output:
 
 Feel free to reach out with any questions.  
 Thank you for reviewing my submission!
+
 ```
