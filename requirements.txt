@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+scikit-learn
+numpy
+pandas
+umap-learn
+matplotlib
+pytest
