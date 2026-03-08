@@ -90,6 +90,7 @@ This project implements a lightweight, high-performance semantic search system u
 │   └── test_cache.py           # Unit tests for cache hit/miss/semantic behavior
 ├── models/                     # Persistent artifacts (embeddings.npy, faiss.index, gmm.pkl)
 ├── data/                       # Raw & cleaned dataset files
+├── Dockerfile
 ├── requirements.txt
 └── run.sh                      # Convenience script for pipeline + server start
 ```
@@ -134,5 +135,6 @@ Expected output:
 
 Feel free to reach out with any questions.  
 Thank you for reviewing my submission!
+
 
 
